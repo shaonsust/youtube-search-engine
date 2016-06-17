@@ -1,0 +1,146 @@
+@CHARSET "UTF-8";
+
+*
+{
+	padding : 0;
+	margin : 0;
+}
+
+body
+{
+	font-family : "Segoue", sans-serif;
+	color : #666;
+	background : #e1e1e1;
+	line-height : 1.6em;
+	font-size : 14px;
+}
+
+a
+{
+	text-decoration : none;
+	color : #333;
+}
+
+#container
+{
+	width : 740px;
+	background : #fff;
+	margin : auto;
+}
+
+.clearfix
+{
+	clear : both;
+}
+
+header
+{
+	padding : 30px 20px;
+	background : #f4f4f4;
+}
+
+header h1
+{
+	color : #000;
+	margin-bottom : 5px;
+}
+
+
+header span
+{
+	color : #dd2826;
+}
+
+section
+{
+	padding : 30px 20px 20px 20px;	
+}
+
+footer
+{
+	text-align : center;
+	background : #f4f4f4;
+	padding : 20px;
+}
+
+#search-form
+{
+	display : block;
+	margin-bottom : 15px;
+}
+
+.fieldcontainer
+{
+	display : block;
+	position : relative;
+	width : 100%;
+	margin : 0 auto;
+}
+
+#search-btn:hover
+{
+	filter : alpha(opacity = 90);
+	opacity : 0.9;
+}
+
+
+
+.search-field
+{
+	width : 45%;
+	height : 50px;
+	font-size : 20px;
+	border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#results li
+{
+	padding : 10px 0;
+	border-bottom : 1px #ccc dotted;
+	list-style : none;
+	overflow : auto;
+}
+
+.list-left
+{
+	float : left;
+	width : 20%;
+}
+
+.list-left img
+{
+	width : 100%;
+	padding : 3px;
+	border : solid 1px #ccc;
+}
+
+.list-right
+{
+	float : right;
+	width : 78%;
+}
+
+.ctitle
+{
+	color : #dd2826;
+}
+
+.button-container
+{
+	margin-top : 25px;
+}
+
+.paging-button
+{
+	background : #f4f4f4;
+	padding : 8px 13px;
+	border : #ccc 1px solid;
+	border-radius : 5px;
+	color : #333;
+	margin : 10px;
+	cursor : pointer;
+}
+
+
